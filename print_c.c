@@ -14,7 +14,7 @@ int print_c(va_list val)
 	return (1);
 }
 
-file: print_exc_string.c
+/**file: print_exc_string.c*/
 
 #include "main.h"
 /**

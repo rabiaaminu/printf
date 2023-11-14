@@ -35,7 +35,7 @@ Here:
 				i = i + 2;
 				goto Here;
 			}
-			j--
+			j--;
 		}
 		_putchar(format[i]);
 		length++;

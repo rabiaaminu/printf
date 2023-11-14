@@ -17,7 +17,7 @@ int print_bin(va_list val)
 	{
 		p = ((a << (31 - i)) & num);
 		if (p >> (31 - i))
-		flag = 1;
+			flag = 1;
 		if (flag)
 		{
 			b = p >> (31 - i);
